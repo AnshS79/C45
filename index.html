@@ -1,0 +1,37 @@
+<!DOCTYPE html><html><head>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script type="module">
+        
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+
+        const firebaseConfig = {
+          apiKey: "AIzaSyDPZZ9oLlVGR0ohA9SFdYZlMA1kumP-GyY",
+          authDomain: "hangman-death-battles.firebaseapp.com",
+          projectId: "hangman-death-battles",
+          storageBucket: "hangman-death-battles.appspot.com",
+          messagingSenderId: "1097081786770",
+          appId: "1:1097081786770:web:ec20089772bafd8aa9f14b"
+        };
+      
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+      <script src="js/Game.js"></script>
+      <script src="js/Form.js"></script>
+      <script src="js/Player.js"></script>
+  
+
+</body></html>
